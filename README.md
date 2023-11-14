@@ -12,7 +12,7 @@
 #### Untuk memulai membuat kode php, perlu disiapkan web server dan interpreter PHP terlebih dahulu. Web servar yang kita gunakan adalah Apache 2 dan interpreter PHP 7. Untuk memudahkan proses praktikum, kita gunakan aplikasi bundle web server yaitu ```XAMPP.```
 ```Install XAMPP```
 #### Unduh XAMPP dari ```https://www.apachefriends.org/download.html``` dan pilih versi portable untuk memudahkan proses installasi. Kemudian extract file tersebut, seusikan direktorinya ```(misal: c:\xampp).```
-![gambar](IMG/0.1.png)
+![gambar](img/0.1.png)
 #### Konfigurasi Web Server
 • Konfigurasi Apache
 #### Untuk konfigurasi HTTP server, seperti port yang digunakan akses HTTP, modul yang diaktifkan, lokasi document root, dll.
@@ -25,7 +25,7 @@
 #### Lokasi file: ```\xampp\mysql\bin\my.ini```
 #### Menjalankan Web Server
 ##### ntuk menjalankan web server dari menu XAMPP Control.
-![gambar](IMG/1.png)
+![gambar](img/1.png)
 • Uji coba apakah server sudah berkerja dengan baik
 ##### ```vhttp://127.0.0.1``` atau ```http://localhost```
 ##### Tampil halaman utama XAMPP jika server sudah berkerja dengan baik.
@@ -36,9 +36,9 @@
 ##### Manajemen database: ```http://localhost/phpmyadmin```
 ##### Memulai PHP
 ##### Buat folder lab7_php_dasar pada root directory web server ```(c:\xampp\htdocs)```
-![gambar](IMG/2.png)
+![gambar](img/2.png)
 ##### Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: ```http://localhost/lab7_php_dasar/```
-![gambar](IMG/3.png)
+![gambar](img/3.png)
 ##### PHP Dasar
 ##### Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat kode seperti berikut.
 ```python
@@ -55,7 +55,7 @@
     ?>
 ```
 ##### Hasil Output
-![gambar](IMG/4.0.png)
+![gambar](img/4.0.png)
 ##### Kemudian untuk mengakses hasilnya melalui URL: ```http://localhost/lab7_php_dasar/php_dasar.php```
 ##### Variable PHP
 ##### Menambahkan variable pada program.
@@ -69,7 +69,7 @@
     ?>
 ```
 ##### Hasil Output
-![gambar](IMG/4.png)
+![gambar](img/4.png)
 ##### Predefine Variable $_GET
 ```pyhton
  <h1>Predefine variable</h1>
@@ -80,7 +80,7 @@
 </html>
 ```
 ##### Hasil Output
-![gambar](IMG/5.png)
+![gambar](img/5.png)
 ##### Untuk mengaksesnya gunakan URL: ```http://localhost/lab7_php_dasar/php_dasar.php?nama=Muhammad albedri```
 ##### Membuat Form Input
 ```python
@@ -155,7 +155,7 @@ switch ($nama_hari) {
 ?>
 ```
 ##### Hasil Output
-![gambar](IMG/7.png)
+![gambar](img/7.png)
 ##### Perulangan for
 ```python
 <h2>Perulangan for</h2>
@@ -171,7 +171,7 @@ for ($i=10; $i>=1; $i--) {
 ?>
 ```
 ##### Hasil Output
-![gambar](IMG/8.png)
+![gambar](img/8.png)
 ##### Perulangan while
 ```python
 <h2>Perulangan while</h2>
@@ -185,7 +185,7 @@ while ($i<=10) {
 ?>
 ```
 ##### Hasil Output
-![gambar](IMG/9.1.png)
+![gambar](img/9.1.png)
 ##### Perulangan dowhile
 ```python
 <h2>Perulangan dowhile</h2>
@@ -201,7 +201,7 @@ $i++;
 </html>
 ```
 ##### Hasil Output
-![gambar](IMG/9.png)
+![gambar](img/9.png)
 ## Pertanyaan dan Tugas
 ##### Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nama, tanggal lahir dan pekerjaan. Kemudian tampilkan outputnya dengan menghitung umur berdasarkan inputan tanggal lahir. Dan pilihan pekerjaan dengan gaji yang berbeda-beda sesuai pilihan pekerjaan.
 ##### Input
@@ -302,7 +302,7 @@ $i++;
 </html>
 ```
 ##### Hasil Output
-![gambar](IMG/10.png))
+![gambar](img/10.png))
 ### Laporan Praktikum
 1. Buatlah repository baru dengan nama Lab7Web.
 2. Kerjakan semua latihan yang diberikan sesuai urutannya.
